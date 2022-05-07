@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Dice Game</h1>
+
+    <p class="letsPlay">Let's play a game of dice.</p>
+
+    <img class="diceGif" src="assets/dice.gif" alt="gif dice roll">
+
+    <div class="diceContainer invisible">
+        <img class = "dice one" src="assets/dice1.png" alt="player one dice">
+        <img class = "dice two" src="assets/dice4.png" alt="player two dice">
+    </div>
+
+    <form class = "form" action="">
+        <label for="playerOneName">Player 1 Name: </label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Player 2 Name: </label>
+        <input type="text" id="ln" name="lname"><br><br>
+    </form>
+
+    <p class="result invisible">Player 1 Wins!</p>
+
+    <button class="btn">Click Me or the moving dice!</button>
+
+    <footer>
+        Made with ❤️ by Niladri Ghosh
+    </footer>
+    
+    <script src="index.js" charset="utf-8"></script>
+</body>
+</html>

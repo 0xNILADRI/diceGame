@@ -1,0 +1,115 @@
+body{
+    background-color: #ffe4c4;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.invisible {
+    display: none !important;
+}
+
+h1 {
+    font-size: 58px;
+    color: #c6175b;
+    text-align: center;
+    text-shadow: 4px 3px black;
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 10px auto;
+}
+
+.diceGif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 0 50px 0;
+    width: 300px;
+}
+
+.diceContainer {
+    margin: 80px auto 60px; 
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.dice {
+    width: 150px;
+}
+
+form { 
+    margin: 0 auto; 
+    width: 300px;
+}
+
+input {
+    border: none;
+    margin-left: 15px;
+    border-radius: 8px;
+    height: 20px;
+}
+
+.result {
+    color: #c6175b;
+    font-size: 30px;
+    text-shadow: 1px 2px black;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.btn {
+    background-color: #c6175b;
+    color: white;
+    height: 30px;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    position: fixed;
+    bottom: 70px !important;
+    left: 50%;
+    margin-left: -125px;
+}
+
+footer {
+    background-color: #c6175b;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    width: 100vw;
+    height: 30px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
