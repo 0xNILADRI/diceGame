@@ -1,127 +1,138 @@
-body{
-    margin: 0;
-    background-color: #ffe4c4;
-    font-family: 'Open Sans', sans-serif;
+body {
+  margin: 0;
+  background-color: #ffe4c4;
+  font-family: "Open Sans", sans-serif;
 }
 
 section {
-    margin: 0;
-    height: 95vh;
-    text-align: center;
+  margin: 0;
+  height: 95vh;
+  text-align: center;
 }
 
 .invisible {
-    display: none !important;
+  display: none !important;
 }
 
 h1 {
-    font-size: 58px;
-    color: #c6175b;
-    text-align: center;
-    text-shadow: 4px 3px black;
-    font-family: 'Permanent Marker', cursive;
-    margin: 0 auto 20px;
+  font-size: 58px;
+  color: #c6175b;
+  text-align: center;
+  text-shadow: 4px 3px black;
+  font-family: "Permanent Marker", cursive;
+  margin: 0 auto 20px;
 }
 
 p {
-    text-align: center;
-    font-size: 24px;
-    text-transform: uppercase;
-    margin: 10px auto;
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 10px auto;
 }
 
 .diceGif {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 0 0 50px 0;
-    width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 0 50px 0;
+  width: 300px;
 }
 
 .diceContainer {
-    margin: 80px auto 60px; 
-    width: 300px;
-    display: flex;
-    flex-wrap: wrap;
-
+  margin: 80px auto 60px;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .dice {
-    width: 150px;
+  width: 150px;
 }
 
-form { 
-    margin: 0 auto; 
-    width: 300px;
+form {
+  margin: 0 auto;
+  width: 300px;
 }
 
 input {
-    border: none;
-    margin-left: 15px;
-    border-radius: 8px;
-    height: 20px;
+  border: none;
+  margin-left: 15px;
+  border-radius: 8px;
+  height: 20px;
 }
 
 .result {
-    color: #c6175b;
-    font-size: 30px;
-    text-shadow: 1px 2px black;
-    font-family: 'Permanent Marker', cursive;
+  color: #c6175b;
+  font-size: 30px;
+  text-shadow: 1px 2px black;
+  font-family: "Permanent Marker", cursive;
 }
 
 .btn {
-    background-color: #c6175b;
-    color: white;
-    height: 30px;
-    width: 250px;
-    border: none;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 16px;
-    margin: 25px auto 48px;
+  background-color: #c6175b;
+  color: white;
+  height: 30px;
+  width: 250px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+  margin: 25px auto 48px;
 }
 
 footer {
-    background-color: #c6175b;
-    font-size: 16px;
-    left: 0px;
-    text-align: center;
-    line-height: 5vh;
-    width: 100%;
-    height: 5vh;
+  background-color: #c6175b;
+  font-size: 16px;
+  left: 0px;
+  text-align: center;
+  line-height: 5vh;
+  width: 100%;
+  height: 5vh;
 }
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 380px) {
-    h1 {
-        padding-top: 50px;
-    }
-    .diceGif {
-        padding-top: 50px;
-    }
-    .form {
-        width: 350px;
-        padding-top: 80px;
-    }
+  h1 {
+    padding-top: 50px;
+  }
+  .diceGif {
+    padding-top: 50px;
+  }
+  .form {
+    width: 350px;
+    padding-top: 80px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+  .diceGif {
+    padding-top: 50px;
+    margin: 68px auto;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+  h1 {
+    padding-top: 205px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+  h1 {
+    padding-top: 275px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
+  h1 {
+    padding-top: 25px;
+  }
+  .diceGif {
+    padding-top: 10px;
+    margin: 4px auto;
+  }
 }
